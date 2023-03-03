@@ -1,1 +1,1 @@
-# Simple virtual keyboard ample
+# Simple virtual keyboard sample
