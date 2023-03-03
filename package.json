@@ -1,7 +1,11 @@
 {
-  "name": "virtual-keyBoard-react-sample",
+  "name": "virtualkeyboardreactsamples",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/takahirox0323/virtual-keyBoard-react-sample"
+  },
   "publishConfig": {
-    "registry": "https://github.com/takahirox0323/virtual-keyBoard-react-sample"
+    "registry": "https://registry.npmjs.org/"
   },
   "version": "0.1.0",
   "description": "A simple virtual keyBoard library",
@@ -11,7 +15,7 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
-  "author": "takahiro arai",
+  "author": "＠takahiro0323",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.16.0",
@@ -53,5 +57,8 @@
   "files": [
     "dist"
   ],
-  "types": "dist/index.d.ts"
+  "types": "dist/index.d.ts",
+  "dependencies": {
+    "@emotion/styled": "^11.10.6"
+  }
 }
