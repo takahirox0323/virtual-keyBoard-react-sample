@@ -30,7 +30,7 @@ type Props = InputProps & {
   disableKeyBoardValue?: string[];
 };
 
-const SoftWareKeyBoardWithInput: React.FC<Props> = (input) => {
+const SoftWareKeyBoardWithInput = (input: Props) => {
   const [showKeyboard, setShowKeyboard] = useState<boolean>(false);
   const [value, setValue] = useState(input.value);
   const [selection, setSelection] = useState<number>(0);
